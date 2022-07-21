@@ -1,14 +1,20 @@
-
 /*------------------------------------------------
     Welcome Page
 -------------------------------------------------*/
 
 .author-image-large {
     position: absolute;
+    // right: -150px;
     right: 0;
-    top: 0;
+    width: 600px;
+    // transform: scale(0.5);
+    // height: 150px;
+    overflow: hidden;
+    top: 10%;
+
+
     img {
-        @include calc(height, "100vh - 4px");
+        @include calc(height, "90vh - 4px");
     }
 }
 

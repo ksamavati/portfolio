@@ -14,6 +14,7 @@
 	.author-image-large {
 		img {
 			@include calc(height, "80vh - 4px");
+
 		}
 	}
 }
@@ -41,6 +42,7 @@
 	.author-image-large {
 		position: static;
 		margin-bottom: 50px;
+		width: auto; //added
 
 		img {
 			display: block;
@@ -159,6 +161,7 @@
 	.author-image-large {
 		position: static;
 		margin-bottom: 50px;
+		width: auto; //added
 
 		img {
 			display: block;
@@ -235,9 +238,11 @@
 
 	.page-nav {
 		bottom: auto;
+
 		.flex {
 			display: block;
 			text-align: center;
+
 			span {
 				display: block;
 				margin: 20px 0;

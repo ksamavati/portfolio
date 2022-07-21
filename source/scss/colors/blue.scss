@@ -16,6 +16,8 @@ $primary-color: #02B7CE;
 /* background color */
 .btn-primary,
 .loading-mask,
+.primaryBG,
+//added
 .section-title h3::after,
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after,
@@ -25,7 +27,7 @@ $primary-color: #02B7CE;
 }
 
 .nicescroll-cursors {
-	background: $primary-color !important;
+	background: $primary-color  !important;
 }
 
 

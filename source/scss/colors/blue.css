@@ -12,6 +12,7 @@
 /* background color */
 .btn-primary,
 .loading-mask,
+.primaryBG,
 .section-title h3::after,
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after,
@@ -56,4 +57,6 @@
 .service-hex:hover .fill,
 .service-hex:hover .st1 {
   fill: #02B7CE;
-}/*# sourceMappingURL=blue.css.map */
+}
+
+/*# sourceMappingURL=blue.css.map */

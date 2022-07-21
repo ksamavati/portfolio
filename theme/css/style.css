@@ -102,6 +102,10 @@ label {
   outline: 0 none;
 }
 
+.primaryBG {
+  background-color: #fa6862;
+}
+
 .btn-primary {
   background-color: #fa6862;
   border: 0;
@@ -479,10 +483,12 @@ label {
 .author-image-large {
   position: absolute;
   right: 0;
-  top: 0;
+  width: 600px;
+  overflow: hidden;
+  top: 10%;
 }
 .author-image-large img {
-  height: calc(100vh - 4px);
+  height: calc(90vh - 4px);
 }
 
 /*------------------------------------------------
@@ -520,7 +526,8 @@ label {
   background-color: #1e2530;
   border-radius: 2px;
   height: auto;
-  min-height: 45px;
+  min-height: 25px;
+  margin-bottom: 10px;
   -moz-align-items: center;
   align-items: center;
   display: -moz-flex;
@@ -684,6 +691,13 @@ label {
   font-size: 12px;
 }
 
+.history-image {
+  display: block;
+  position: relative;
+  height: 66px;
+  margin: 0 0;
+}
+
 .history-hex {
   display: block;
   position: relative;
@@ -750,6 +764,8 @@ label {
   line-height: 24px;
   overflow: hidden;
   transition: all 0.4s ease 0s;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .service-hex:hover {
   z-index: 2;
@@ -1247,6 +1263,7 @@ label {
   .author-image-large {
     position: static;
     margin-bottom: 50px;
+    width: auto;
   }
   .author-image-large img {
     display: block;
@@ -1331,6 +1348,7 @@ label {
   .author-image-large {
     position: static;
     margin-bottom: 50px;
+    width: auto;
   }
   .author-image-large img {
     display: block;
