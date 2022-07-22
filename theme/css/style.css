@@ -483,9 +483,7 @@ label {
 .author-image-large {
   position: absolute;
   right: 0;
-  width: 600px;
-  overflow: hidden;
-  top: 10%;
+  bottom: 0;
 }
 .author-image-large img {
   height: calc(90vh - 4px);

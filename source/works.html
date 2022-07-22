@@ -1,96 +1,105 @@
 @@include('header.htm')
 
 <main class="site-wrapper">
-  <div class="pt-table">
-    <div class="pt-tablecell page-works relative">
-      <!-- .close -->
-      <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
-      <!-- /.close -->
+    <div class="pt-table">
+        <div class="pt-tablecell page-works relative">
+            <!-- .close -->
+            <a href="./" class="page-close"><i class="tf-ion-close"></i></a>
+            <!-- /.close -->
 
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
-            <div class="page-title text-center">
-              <h2>My <span class="primary">works</span> <span class="title-bg">works</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore magna aliquam erat volutpat.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                        <div class="page-title text-center">
+                            <h2>My <span class="primary">works</span> <span class="title-bg">works</span></h2>
+                            <p style="line-height: 80px;">You can find some of my more recent projects here.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <ul class="filter list-inline">
+                            <li><a href="#" class="active" data-filter="*">All</a></li>
+                            <li><a href="#" data-filter=".Javascript">JavaScript</a></li>
+                            <li><a href="#" data-filter=".Java">Java</a></li>
+                            <li><a href="#" data-filter=".Photoshop">Photoshop</a></li>
+                            <li><a href="#" data-filter=".Unity">Unity</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row isotope-gutter">
+                    <div class="col-xs-12 col-sm-6 col-md-4 Javascript">
+                        <a href="https://ksamavati.github.io/madLibs/">
+                            <figure class="works-item">
+                                <img src="images/works/MadLibs2.png" alt="Mad Libs Project image">
+                                <div class="overlay"></div>
+                                <figcaption class="works-inner">
+                                    <h4>Mad Libs</h4>
+                                    <p>HTML, CSS, JavaScript</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 Java Photoshop">
+                        <figure class="works-item">
+                            <img src="images/works/guageTimelapse.gif" alt="">
+                            <div class="overlay"></div>
+                            <figcaption class="works-inner">
+                                <h4>Vehicle Diagnostic<br>Android App</h4>
+                                <p style="line-height: 18px;">Android Studio, Java, XML,<br>Adobe XD, Photoshop</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 Unity">
+                        <a href="https://ksamavati.github.io/superHexagonSpeedBuild/">
+                            <figure class="works-item">
+                                <img src="images/works/superHexagon.gif" alt="">
+                                <div class="overlay"></div>
+                                <figcaption class="works-inner">
+                                    <h4>Super Hexagon<br>in 30 minutes</h4>
+                                    <p>Unity, C#, WebGL</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 Javascript">
+                        <a href="https://ksamavati.github.io/loadingAnimation/">
+                            <figure class="works-item">
+                                <img src="images/works/Loading.gif" alt="">
+                                <div class="overlay"></div>
+                                <figcaption class="works-inner">
+                                    <h4>Loading Animation</h4>
+                                    <p>Sass, Javascript, CSS, HTML</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 Unity Photoshop">
+                        <figure class="works-item">
+                            <img src="images/works/CardGame.png" alt="">
+                            <div class="overlay"></div>
+                            <figcaption class="works-inner">
+                                <h4>Autobattler Card Game</h4>
+                                <p>Unity, C#, Photoshop</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <!-- /.row -->
             </div>
-          </div>
-        </div> <!-- /.row -->
+            <!-- /.container -->
 
-        <div class="row">
-          <div class="col-xs-12">
-            <ul class="filter list-inline">
-              <li><a href="#" class="active" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".Bootstrap">Bootstrap</a></li>
-              <li><a href="#" data-filter=".Javascript">Javascript</a></li>
-              <li><a href="#" data-filter=".React">React</a></li>
-              <li><a href="#" data-filter=".NodeJS">Node.js</a></li>
-            </ul>
-          </div>
+            @@include('blocks/page-nav.htm',{"prev":"resume.html", "next":"testimonials.html"})
+            <!-- /.container -->
+
         </div>
-
-        <div class="row isotope-gutter">
-          <div class="col-xs-12 col-sm-6 col-md-4 Photoshop Illustrator">
-            <a href="https://ksamavati.github.io/madLibs/">
-              <figure class="works-item">
-                <img src="images/works/MadLibs.png" alt="Mad Libs Project image">
-                <div class="overlay"></div>
-                <figcaption class="works-inner">
-                  <h4>Mad Libs</h4>
-                  <p>HTML, CSS</p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Illustrator">
-            <figure class="works-item">
-              <img src="images/works/2.jpg" alt="">
-              <div class="overlay"></div>
-              <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Indesign Photoshop">
-            <figure class="works-item">
-              <img src="images/works/3.jpg" alt="">
-              <div class="overlay"></div>
-              <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Artworks Illustrator">
-            <figure class="works-item">
-              <img src="images/works/4.jpg" alt="">
-              <div class="overlay"></div>
-              <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
-              </figcaption>
-            </figure>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 Photoshop">
-            <figure class="works-item">
-              <img src="images/works/5.jpg" alt="">
-              <div class="overlay"></div>
-              <figcaption class="works-inner">
-                <h4>Project Name</h4>
-                <p>Illustration, Digital Art</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-
-      @@include('blocks/page-nav.htm',{"prev":"resume.html", "next":"testimonials.html"})
-      <!-- /.container -->
-
-    </div> <!-- /.pt-tablecell -->
-  </div> <!-- /.pt-table -->
-</main> <!-- /.site-wrapper -->
+        <!-- /.pt-tablecell -->
+    </div>
+    <!-- /.pt-table -->
+</main>
+<!-- /.site-wrapper -->
 
 @@include('footer.htm')

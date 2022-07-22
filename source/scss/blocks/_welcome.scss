@@ -6,13 +6,12 @@
     position: absolute;
     // right: -150px;
     right: 0;
-    width: 600px;
+    bottom: 0;
+    // width: 20vw;
     // transform: scale(0.5);
     // height: 150px;
-    overflow: hidden;
-    top: 10%;
-
-
+    // overflow: hidden;
+    // top: 10%;
     img {
         @include calc(height, "90vh - 4px");
     }
