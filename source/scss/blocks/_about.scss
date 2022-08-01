@@ -1,4 +1,3 @@
-
 /*------------------------------------------------
     About Page
 -------------------------------------------------*/
@@ -6,16 +5,20 @@
 	margin-bottom: 23px;
 	@include align-items(center);
 	@include flexbox();
+
 	.author-thumb {
-	  	background-color: $light;
-	  	border: 5px solid $light-dark;
-	  	margin-right: 30px;
-	  	padding: 5px;
-	  	img {
-	  		border: 2px solid $light-dark;
-	  		width: 145px;
-	  	}
+		background-color: $light;
+		border: 5px solid $light-dark;
+		margin-right: 30px;
+		padding: 5px;
+		width: fit-content;
+
+		img {
+			border: 2px solid $light-dark;
+			width: 145px;
+		}
 	}
+
 	.author-desc {
 		p {
 			color: $light-dark;
@@ -24,6 +27,7 @@
 			margin-bottom: 4px;
 			text-transform: uppercase;
 		}
+
 		b {
 			font-family: $open-sans;
 		}

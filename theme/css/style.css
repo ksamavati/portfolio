@@ -504,6 +504,9 @@ label {
   border: 5px solid #1e2530;
   margin-right: 30px;
   padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .about-author .author-thumb img {
   border: 2px solid #1e2530;

@@ -95,6 +95,10 @@ label {
   outline: 0 none;
 }
 
+.primaryBG {
+  background-color: #fa6862;
+}
+
 .btn-primary {
   background-color: #fa6862;
   border: 0;
@@ -471,8 +475,8 @@ label {
 -------------------------------------------------*/
 .author-image-large {
   position: absolute;
-  right: -150px;
-  top: 10%;
+  right: 0;
+  bottom: 0;
 }
 .author-image-large img {
   height: calc(90vh - 4px);
@@ -493,6 +497,9 @@ label {
   border: 5px solid #1e2530;
   margin-right: 30px;
   padding: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .about-author .author-thumb img {
   border: 2px solid #1e2530;
@@ -676,10 +683,6 @@ label {
 .history-item span {
   color: #aaaaaa;
   font-size: 12px;
-}
-
-.primaryBG {
-  background-color: #fa6862;
 }
 
 .history-image {
@@ -1254,6 +1257,7 @@ label {
   .author-image-large {
     position: static;
     margin-bottom: 50px;
+    width: auto;
   }
   .author-image-large img {
     display: block;
@@ -1338,6 +1342,7 @@ label {
   .author-image-large {
     position: static;
     margin-bottom: 50px;
+    width: auto;
   }
   .author-image-large img {
     display: block;
