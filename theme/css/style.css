@@ -1,9 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
 /*------------------------------------------------
 	Base Styles
@@ -13,17 +7,19 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: #ababab;
+  color: #777777;
 }
 
 a {
   color: inherit;
-  transition: all 0.3s ease 0s;
 }
 a:hover, a:focus {
   color: #ababab;
   text-decoration: none;
   outline: 0 none;
+}
+a {
+  transition: all 0.3s ease 0s;
 }
 
 h1,
@@ -117,7 +113,7 @@ label {
   text-transform: uppercase;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-  background-color: #f9423a;
+  background-color: rgb(248.7407407407, 65.9703703704, 58.4592592593);
 }
 
 .btn-border {
@@ -504,7 +500,6 @@ label {
   border: 5px solid #1e2530;
   margin-right: 30px;
   padding: 5px;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
@@ -790,6 +785,7 @@ label {
 .testimonials .thumb {
   float: left;
   margin-top: -20px;
+  line-height: 120%;
 }
 .testimonials .thumb img {
   width: auto;
@@ -1322,7 +1318,7 @@ label {
     height: auto;
   }
   .pt-table,
-.pt-tablecell {
+  .pt-tablecell {
     display: block;
   }
   .page-title {
@@ -1342,8 +1338,8 @@ label {
     margin-left: auto;
   }
   .page-home .hexagon-item:nth-last-child(1),
-.page-home .hexagon-item:nth-last-child(2),
-.page-home .hexagon-item:nth-last-child(3) {
+  .page-home .hexagon-item:nth-last-child(2),
+  .page-home .hexagon-item:nth-last-child(3) {
     transform: rotate(30deg) translate(0px, 0px);
   }
   .author-image-large {
