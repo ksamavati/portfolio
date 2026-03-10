@@ -1,10 +1,10 @@
-# Kayvon Samavati — Portfolio
+# Portfolio
 
-A personal portfolio website built with Gulp, Bootstrap, and jQuery. It showcases projects, skills, resume, and contact information across multiple pages, and is deployed to Netlify.
+A personal portfolio website built with Gulp, Bootstrap, and jQuery. It showcases projects, skills, resume, and contact information across multiple pages.
 
 ## Live Site
 
-Hosted on Netlify — auto-deploys from the `theme/` build directory on every push.
+Auto-deploys from the `theme/` build directory on every push.
 
 ## Tech Stack
 
